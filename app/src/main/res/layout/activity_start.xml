@@ -9,7 +9,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/start_text1"
-        android:src="@drawable/start_image"
         android:textSize="43sp"
         android:text="@string/love"
         android:layout_centerHorizontal="true"/>
@@ -18,7 +17,6 @@
         android:layout_height="wrap_content"
         android:id="@+id/start_text2"
         android:layout_below="@+id/start_text1"
-        android:src="@drawable/start_image"
         android:textSize="43sp"
         android:text="@string/none"
         android:layout_centerHorizontal="true"/>
