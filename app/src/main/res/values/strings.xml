@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BroadcastBestPractice</string>
+    <string name="app_name">LoginInterface</string>
     <string name="input_username">请输入您的用户名</string>
     <string name="input_password">请输入您的密码</string>
     <string name="remember_password">记住密码</string>

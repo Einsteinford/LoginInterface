@@ -1,4 +1,4 @@
-package comeinsteinford.github.broadcastbestpractice.Activity;
+package comeinsteinford.github.logininterface.Activity;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -7,8 +7,8 @@ import android.preference.PreferenceManager;
 import android.view.View;
 import android.widget.Button;
 
-import comeinsteinford.github.broadcastbestpractice.R;
-import comeinsteinford.github.broadcastbestpractice.Utils.DatabaseUtils;
+import comeinsteinford.github.logininterface.R;
+import comeinsteinford.github.logininterface.Utils.DatabaseUtils;
 
 /**
  * Created by KK on 2016-08-10.

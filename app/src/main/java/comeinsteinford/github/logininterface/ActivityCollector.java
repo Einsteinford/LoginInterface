@@ -1,4 +1,4 @@
-package comeinsteinford.github.broadcastbestpractice;
+package comeinsteinford.github.logininterface;
 
 import android.app.Activity;
 

@@ -1,4 +1,4 @@
-package comeinsteinford.github.broadcastbestpractice;
+package comeinsteinford.github.logininterface;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

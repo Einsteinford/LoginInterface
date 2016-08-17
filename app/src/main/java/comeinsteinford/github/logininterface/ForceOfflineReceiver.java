@@ -1,15 +1,13 @@
-package comeinsteinford.github.broadcastbestpractice;
+package comeinsteinford.github.logininterface;
 
 import android.app.AlertDialog;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.graphics.drawable.ColorDrawable;
-import android.util.Log;
 import android.view.WindowManager;
 
-import comeinsteinford.github.broadcastbestpractice.Activity.LoginActivity;
+import comeinsteinford.github.logininterface.Activity.LoginActivity;
 
 /**
  * Created by KK on 2016-08-10.

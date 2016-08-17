@@ -1,4 +1,4 @@
-package comeinsteinford.github.broadcastbestpractice.Activity;
+package comeinsteinford.github.logininterface.Activity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -6,8 +6,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.Window;
 
-import comeinsteinford.github.broadcastbestpractice.R;
-import comeinsteinford.github.broadcastbestpractice.Utils.DatabaseUtils;
+import comeinsteinford.github.logininterface.R;
+import comeinsteinford.github.logininterface.Utils.DatabaseUtils;
 
 /**
  * Created by KK on 2016-08-15.

@@ -1,9 +1,9 @@
-package comeinsteinford.github.broadcastbestpractice.Activity;
+package comeinsteinford.github.logininterface.Activity;
 
 import android.app.Activity;
 import android.os.Bundle;
 
-import comeinsteinford.github.broadcastbestpractice.ActivityCollector;
+import comeinsteinford.github.logininterface.ActivityCollector;
 
 public class BaseActivity extends Activity {
 

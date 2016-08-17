@@ -1,13 +1,12 @@
-package comeinsteinford.github.broadcastbestpractice.Utils;
+package comeinsteinford.github.logininterface.Utils;
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import android.util.Log;
 import android.widget.Toast;
 
-import comeinsteinford.github.broadcastbestpractice.UserSQLiteHelper;
+import comeinsteinford.github.logininterface.UserSQLiteHelper;
 
 /**
  * Created by KK on 2016-08-16.

@@ -10,27 +10,27 @@
 
 
     <ImageView
+        android:id="@+id/Logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/logo"
-        android:id="@+id/Logo"
         android:layout_above="@+id/tableLayout"
-        android:layout_marginBottom="20dp"
         android:layout_centerHorizontal="true"
-        android:contentDescription="@string/logo"/>
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/logo"/>
 
     <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                 android:id="@+id/tableLayout"
                  android:layout_width="match_parent"
                  android:layout_height="wrap_content"
                  android:layout_centerHorizontal="true"
                  android:layout_centerVertical="true"
-                 android:stretchColumns="1"
-                 android:id="@+id/tableLayout">
+                 android:stretchColumns="1">
 
 
         <TableRow
-            android:background="@drawable/shape_background"
-            android:layout_margin="8dp">
+            android:layout_margin="8dp"
+            android:background="@drawable/shape_background">
 
             <ImageView
                 android:layout_height="wrap_content"
@@ -42,10 +42,10 @@
                 android:id="@+id/account"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="10dp"
-                android:singleLine="true"
                 android:background="@null"
                 android:gravity="center_vertical"
                 android:hint="@string/input_username"
+                android:singleLine="true"
                 android:textColorHint="@color/hit_color"/>
 
         </TableRow>
@@ -96,8 +96,8 @@
                 android:background="@drawable/button_changed"
                 android:text="@string/login"
                 android:textColor="@color/text_color"
-                android:textStyle="bold"
-                android:textSize="18sp"/>
+                android:textSize="18sp"
+                android:textStyle="bold"/>
 
         </TableRow>
 
@@ -112,8 +112,8 @@
                 android:background="@drawable/button_changed"
                 android:text="@string/register"
                 android:textColor="@color/text_color"
-                android:textStyle="bold"
-                android:textSize="18sp"/>
+                android:textSize="18sp"
+                android:textStyle="bold"/>
         </TableRow>
 
 
