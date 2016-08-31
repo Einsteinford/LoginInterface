@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import comeinsteinford.github.logininterface.R;
 import comeinsteinford.github.logininterface.Utils.DatabaseUtils;
@@ -87,9 +88,14 @@ public class LoginActivity extends BaseActivity {
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String account = accountEdit.getText().toString();
-                String password = passwordEdit.getText().toString();
-                DatabaseUtils.insertUserInfo(account, password, LoginActivity.this);
+                if (!accountEdit.getText().toString().equals("")){
+                    String account = accountEdit.getText().toString();
+                    String password = passwordEdit.getText().toString();
+                    DatabaseUtils.insertUserInfo(account, password, LoginActivity.this);
+                }else {
+                    Toast.makeText(LoginActivity.this,"请输入用户名",Toast.LENGTH_SHORT).show();
+                }
+
             }
         });
     }
